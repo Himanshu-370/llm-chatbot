@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-API_TOKEN = st.secrets("API_TOKEN")
-API_URL = st.secrets("API_URL")
+API_TOKEN = st.secrets["API_TOKEN"]
+API_URL = st.secrets["API_URL"]
 
 # Optional: enable logging
 logging.basicConfig(level=logging.INFO)
